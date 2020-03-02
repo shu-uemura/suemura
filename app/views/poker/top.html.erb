@@ -1,0 +1,14 @@
+<body>
+  <header>
+    <h1>Check Your Poker Hand</h1>
+  </header>
+  <main>
+    <%= form_tag('/check', method: :post) do %>
+      <input class="form_field" type="text" id="name">
+      <p><input class="form_submit" type="submit" value="check"></p>
+    <% end %>
+  </main>
+  <footer>
+    <p>Created by suemura for a trial of atone/AFTEE</p>
+  </footer>
+</body>
