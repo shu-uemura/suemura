@@ -2,6 +2,7 @@ class PokerController < ApplicationController
   def top
   end
   def check
+    @hand = "ハイカード"
   end
   def new
     @card = Card.new
