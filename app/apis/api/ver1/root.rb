@@ -2,8 +2,7 @@ module API
   module Ver1
     class Root < Grape::API
 
-      # これでdomain/api/v1でアクセス出来るようになる。
-      version 'v1', using: :path
+      #http://localhost:3000/api/ver1
       format :json
 
       mount API::Ver1::Users
